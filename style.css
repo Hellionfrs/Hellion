@@ -1,0 +1,88 @@
+.selector-for-some-widget {
+	box-sizing: content-box;
+  }
+
+.nav-link {
+	color: rgb(200, 200, 200);
+  }
+.nav-link:hover {
+	color: white ;
+}
+body{
+	font-family: Kanit;
+}
+main{
+	display: block;
+
+}
+#nav-bar{
+	position: sticky;
+	top:0;
+	z-index:10;
+}
+.navbar{
+	background-image: linear-gradient(to right, #898989, black );
+	padding: 0 !important;
+}
+
+.autohide{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1030;
+}
+.video{
+	background-image: linear-gradient(to right,#df3535, #325ae9);
+	padding: 0 !important;
+}
+
+.playlist{
+	background-image: linear-gradient(to right,#c0c1c033, #58b9fd73);
+	padding: 0 !important;
+}
+.progre{
+	background-image: linear-gradient(to right,#1c72a580, #00ffadd6);
+	padding: 0 !important;
+}
+.anime{
+	background-image: linear-gradient(to right,#9ee7e0, #58b9fd);
+	padding: 0 !important;
+}
+.moba{
+	background-image: linear-gradient(to right,#0dcaf0, #084298);
+	padding: 0 !important;
+}
+
+
+.scrolled-down{
+	transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+	transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+#logo{
+	height: 40px;
+	padding-left: 10px;
+}
+
+#profile {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+#icon {
+	height:40px;
+}
+
+#social {
+	background color: rgba(0,0,0,0.2) !important;
+}
+.skills img {
+
+    height: 6rem;
+}
+.playlist_embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
